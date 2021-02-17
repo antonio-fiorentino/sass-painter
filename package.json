@@ -1,0 +1,28 @@
+{
+  "name": "sass-painter",
+  "version": "1.0.0",
+  "description": "sass-painter",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "laravel-mix": "^6.0.11"
+  },
+  "devDependencies": {
+    "postcss": "^8.1.14",
+    "sass": "^1.32.7",
+    "sass-loader": "^8.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-fiorentino/sass-painter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio-fiorentino/sass-painter/issues"
+  },
+  "homepage": "https://github.com/antonio-fiorentino/sass-painter#readme"
+}
