@@ -15,8 +15,8 @@
 }
 #all-container .container .navbar-top {
   margin: auto;
-  width: 1000px;
-  height: 150px;
+  width: 1200px;
+  height: 80px;
 }
 #all-container .container .navbar-top ul {
   list-style: none;
@@ -31,4 +31,19 @@
 }
 #all-container .container .navbar-top select {
   margin-left: 15px;
+}
+#all-container .container .navbar-down {
+  margin: auto;
+  width: 1200px;
+}
+#all-container .container .navbar-down ul {
+  list-style: none;
+}
+#all-container .container .navbar-down li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+#all-container .container .navbar-down i {
+  vertical-align: middle;
+  margin-left: 5px;
 }

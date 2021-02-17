@@ -17,8 +17,8 @@ $icon-color: #009cff;
 
     .navbar-top{
       margin: auto;
-      width: 1000px;
-      height: 150px;
+      width: 1200px;
+      height: 80px;
 
       ul{
         list-style: none;
@@ -41,6 +41,22 @@ $icon-color: #009cff;
     }
 
     .navbar-down{
+      margin: auto;
+      width: 1200px;
+
+      ul{
+        list-style: none;
+      }
+
+      li{
+        display: inline-block;
+        margin: 0px 20px
+      }
+      i{
+        vertical-align: middle;
+        margin-left: 5px;
+      }
+
 
     }
 
