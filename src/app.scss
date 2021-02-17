@@ -2,8 +2,15 @@
 
 
 $bg-color: black;
-$color-w: grey;
+$color-g: grey;
 $icon-color: #009cff;
+
+@mixin clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 
 *{
   margin:0;
@@ -31,7 +38,7 @@ $icon-color: #009cff;
 
       li{
         display: inline-block;
-        color: $color-w;
+        color: $color-g;
       }
 
       i{
@@ -69,8 +76,42 @@ $icon-color: #009cff;
   }
 
   .main{
-    height: 1000px;
+
+    height: 600px;
     width: 100vw;
+
+    &-after{
+      @include clearfix;
+    }
+
+
+
+    &-software{
+      height: 500px;
+      float: left;
+      margin-left: 700px;
+      margin-top: 50px;
+
+      li{
+        list-style: none;
+      }
+
+      i{
+        color: $color-g;
+      }
+
+
+      &-price{
+        height: 500px;
+        width: 200px;
+        background-color: $bg-color;
+
+        float: left;
+        margin-left: 100px;
+
+      }
+
+    }
 
     // .jumbotron{
     //   background-image: url($bg-image);

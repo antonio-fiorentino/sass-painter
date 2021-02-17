@@ -48,10 +48,31 @@
   vertical-align: middle;
   margin-left: 5px;
 }
-#all-container main {
-  height: 1000px;
+#all-container .main {
+  height: 600px;
   width: 100vw;
 }
-#all-container main .jumbotron {
-  background-image: url("../img/bg-image.jpg");
+#all-container .main-after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#all-container .main-software {
+  height: 500px;
+  float: left;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+#all-container .main-software li {
+  list-style: none;
+}
+#all-container .main-software i {
+  color: grey;
+}
+#all-container .main-software-price {
+  height: 500px;
+  width: 200px;
+  background-color: black;
+  float: left;
+  margin-left: 100px;
 }
