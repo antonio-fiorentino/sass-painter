@@ -24,6 +24,7 @@
 }
 #all-container .container .navbar-top li {
   display: inline-block;
+  color: grey;
 }
 #all-container .container .navbar-top i {
   color: #009cff;
@@ -46,4 +47,11 @@
 #all-container .container .navbar-down i {
   vertical-align: middle;
   margin-left: 5px;
+}
+#all-container main {
+  height: 1000px;
+  width: 100vw;
+}
+#all-container main .jumbotron {
+  background-image: url("../img/bg-image.jpg");
 }

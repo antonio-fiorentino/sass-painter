@@ -1,4 +1,8 @@
+@import "variables";
+
+
 $bg-color: black;
+$color-w: grey;
 $icon-color: #009cff;
 
 *{
@@ -27,6 +31,7 @@ $icon-color: #009cff;
 
       li{
         display: inline-block;
+        color: $color-w;
       }
 
       i{
@@ -60,6 +65,19 @@ $icon-color: #009cff;
 
     }
 
+
   }
+
+  .main{
+    height: 1000px;
+    width: 100vw;
+
+    // .jumbotron{
+    //   background-image: url($bg-image);
+    // }
+
+  }
+
+
 
 }
