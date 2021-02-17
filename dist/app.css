@@ -5,8 +5,30 @@
 }
 
 #all-container {
-  width: 1000px;
+  width: 100vw;
+}
+#all-container .container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px 0px;
+}
+#all-container .container .navbar-top {
   margin: auto;
-  height: 100px;
-  background-color: red;
+  width: 1000px;
+  height: 150px;
+}
+#all-container .container .navbar-top ul {
+  list-style: none;
+  text-align: right;
+}
+#all-container .container .navbar-top li {
+  display: inline-block;
+}
+#all-container .container .navbar-top i {
+  color: #009cff;
+  margin: 0px 5px 0px 15px;
+}
+#all-container .container .navbar-top select {
+  margin-left: 15px;
 }

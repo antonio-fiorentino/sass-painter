@@ -1,11 +1,49 @@
+$bg-color: black;
+$icon-color: #009cff;
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
 #all-container{
-  width: 1000px;
-  margin: auto;
-  height: 100px;
-  background-color: red;
+  width: 100vw;
+
+  .container{
+    width: 100%;
+    background-color: $bg-color;
+    color: white;
+    padding: 15px 0px;
+
+    .navbar-top{
+      margin: auto;
+      width: 1000px;
+      height: 150px;
+
+      ul{
+        list-style: none;
+        text-align: right;
+      }
+
+      li{
+        display: inline-block;
+      }
+
+      i{
+        color: $icon-color;
+        margin: 0px 5px 0px 15px;
+      }
+
+      select{
+        margin-left: 15px;
+      }
+
+    }
+
+    .navbar-down{
+
+    }
+
+  }
+
 }
