@@ -80,6 +80,13 @@ $icon-color: #009cff;
     height: 600px;
     width: 100vw;
 
+    .jumbotron{
+      background-image: url($bg-image);
+      width: 100%;
+      height: 100%;
+    }
+
+
     &-after{
       @include clearfix;
     }
@@ -100,22 +107,21 @@ $icon-color: #009cff;
         color: $color-g;
       }
 
-
+   }
       &-price{
-        height: 500px;
-        width: 200px;
+        margin-top: 50px;
+        height: 200px;
+        width: 300px;
         background-color: $bg-color;
 
         float: left;
         margin-left: 100px;
 
+
       }
 
-    }
 
-    // .jumbotron{
-    //   background-image: url($bg-image);
-    // }
+
 
   }
 
